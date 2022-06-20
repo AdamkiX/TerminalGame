@@ -1,0 +1,4 @@
+﻿  Simple RPG.cpp
+C:\Users\adamk\Desktop\Github\07d7e6d4-gr12-repo\Projekt\Simple RPG\Simple RPG\Simple RPG.cpp(85,31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\adamk\Desktop\Github\07d7e6d4-gr12-repo\Projekt\Simple RPG\Simple RPG\Simple RPG.cpp(94,31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Simple RPG.vcxproj -> C:\Users\adamk\Desktop\Github\07d7e6d4-gr12-repo\Projekt\Simple RPG\Debug\Simple RPG.exe

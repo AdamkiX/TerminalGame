@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Klasy postaci">
+      <UniqueIdentifier>{60879155-1b56-4173-ae82-db52a6a01cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Postacie">
+      <UniqueIdentifier>{f8ce3b06-f092-4af8-8734-a4df60537e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Klasy potworów">
+      <UniqueIdentifier>{197b391d-8676-4975-9e95-ed310e704c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Potwory">
+      <UniqueIdentifier>{51075d27-bfb0-4adb-bfd9-7f174ba2b976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Mechaniki">
+      <UniqueIdentifier>{58274e35-d518-4ef8-909b-fbc72963ebd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Mechaniki">
+      <UniqueIdentifier>{b4fd60fb-6187-4067-a598-ebf60083c9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Klasy przedmiotów">
+      <UniqueIdentifier>{8460b4e5-03ff-4faa-8fde-b1a2ae861f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Przedmioty">
+      <UniqueIdentifier>{aa87c323-d252-4b6b-baf3-2e2d31bebe34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Klasy przedmiotów\Klasy zbroji">
+      <UniqueIdentifier>{d4220e2e-2006-4bc9-8eaa-03de2c6ec758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Przedmioty\Zbroje">
+      <UniqueIdentifier>{17b7fff3-04e6-42f6-af92-908b10c36ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Przedmioty\Bronie">
+      <UniqueIdentifier>{260d9201-c08b-476f-aef5-b65005f40be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Klasy przedmiotów\Klasy Broni">
+      <UniqueIdentifier>{21825e03-588f-415b-af6b-6904ffa00778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Klasy przedmiotów\Klasy spożywcze">
+      <UniqueIdentifier>{e36f900b-f32d-4856-a34c-cfeface22b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Przedmioty\Spożywcze">
+      <UniqueIdentifier>{91138f68-8dc4-4bae-9bc3-9a7a92ec04b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Simple RPG.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Warior.cpp">
+      <Filter>Pliki źródłowe\Postacie</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Pliki źródłowe\Potwory</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>Pliki źródłowe\Postacie</Filter>
+    </ClCompile>
+    <ClCompile Include="Rogue.cpp">
+      <Filter>Pliki źródłowe\Postacie</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="FightSystem.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelGen.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="Movement.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Pliki źródłowe\Przedmioty</Filter>
+    </ClCompile>
+    <ClCompile Include="Robe.cpp">
+      <Filter>Pliki źródłowe\Przedmioty\Zbroje</Filter>
+    </ClCompile>
+    <ClCompile Include="Chainmail.cpp">
+      <Filter>Pliki źródłowe\Przedmioty\Zbroje</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Pliki źródłowe\Przedmioty</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloak.cpp">
+      <Filter>Pliki źródłowe\Przedmioty\Zbroje</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Pliki źródłowe\Przedmioty</Filter>
+    </ClCompile>
+    <ClCompile Include="Consumable.cpp">
+      <Filter>Pliki źródłowe\Przedmioty</Filter>
+    </ClCompile>
+    <ClCompile Include="Rand.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Pliki źródłowe\Przedmioty\Bronie</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff.cpp">
+      <Filter>Pliki źródłowe\Przedmioty\Bronie</Filter>
+    </ClCompile>
+    <ClCompile Include="Dagger.cpp">
+      <Filter>Pliki źródłowe\Przedmioty\Bronie</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEdit.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallHpPotion.cpp">
+      <Filter>Pliki źródłowe\Przedmioty\Spożywcze</Filter>
+    </ClCompile>
+    <ClCompile Include="MedHpPotion.cpp">
+      <Filter>Pliki źródłowe\Przedmioty\Spożywcze</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeHpPotion.cpp">
+      <Filter>Pliki źródłowe\Przedmioty\Spożywcze</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="Orc.cpp">
+      <Filter>Pliki źródłowe\Potwory</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>Pliki źródłowe\Potwory</Filter>
+    </ClCompile>
+    <ClCompile Include="OrcWarior.cpp">
+      <Filter>Pliki źródłowe\Potwory</Filter>
+    </ClCompile>
+    <ClCompile Include="OrcMage.cpp">
+      <Filter>Pliki źródłowe\Potwory</Filter>
+    </ClCompile>
+    <ClCompile Include="GoblinMage.cpp">
+      <Filter>Pliki źródłowe\Potwory</Filter>
+    </ClCompile>
+    <ClCompile Include="GoblinRogue.cpp">
+      <Filter>Pliki źródłowe\Potwory</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadGame.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveGame.cpp">
+      <Filter>Pliki źródłowe\Mechaniki</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Pliki źródłowe\Potwory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Warior.h">
+      <Filter>Pliki nagłówkowe\Klasy postaci</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Pliki nagłówkowe\Klasy potworów</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>Pliki nagłówkowe\Klasy postaci</Filter>
+    </ClInclude>
+    <ClInclude Include="Rogue.h">
+      <Filter>Pliki nagłówkowe\Klasy postaci</Filter>
+    </ClInclude>
+    <ClInclude Include="FightSystem.h">
+      <Filter>Pliki nagłówkowe\Mechaniki</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelGen.h">
+      <Filter>Pliki nagłówkowe\Mechaniki</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>Pliki nagłówkowe\Mechaniki</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Pliki nagłówkowe\Klasy postaci</Filter>
+    </ClInclude>
+    <ClInclude Include="Robe.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów\Klasy zbroji</Filter>
+    </ClInclude>
+    <ClInclude Include="Chainmail.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów\Klasy zbroji</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloak.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów\Klasy zbroji</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Pliki nagłówkowe\Mechaniki</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów</Filter>
+    </ClInclude>
+    <ClInclude Include="Consumable.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów</Filter>
+    </ClInclude>
+    <ClInclude Include="Rand.h">
+      <Filter>Pliki nagłówkowe\Mechaniki</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Pliki nagłówkowe\Mechaniki</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów\Klasy Broni</Filter>
+    </ClInclude>
+    <ClInclude Include="Staff.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów\Klasy Broni</Filter>
+    </ClInclude>
+    <ClInclude Include="Dagger.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów\Klasy Broni</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEdit.h">
+      <Filter>Pliki nagłówkowe\Mechaniki</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallHpPotion.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów\Klasy spożywcze</Filter>
+    </ClInclude>
+    <ClInclude Include="MedHpPotion.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów\Klasy spożywcze</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeHpPotion.h">
+      <Filter>Pliki nagłówkowe\Klasy przedmiotów\Klasy spożywcze</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Pliki nagłówkowe\Mechaniki</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc.h">
+      <Filter>Pliki nagłówkowe\Klasy potworów</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>Pliki nagłówkowe\Klasy potworów</Filter>
+    </ClInclude>
+    <ClInclude Include="OrcWarior.h">
+      <Filter>Pliki nagłówkowe\Klasy potworów</Filter>
+    </ClInclude>
+    <ClInclude Include="OrcMage.h">
+      <Filter>Pliki nagłówkowe\Klasy potworów</Filter>
+    </ClInclude>
+    <ClInclude Include="GoblinMage.h">
+      <Filter>Pliki nagłówkowe\Klasy potworów</Filter>
+    </ClInclude>
+    <ClInclude Include="GoblinRogue.h">
+      <Filter>Pliki nagłówkowe\Klasy potworów</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadGame.h">
+      <Filter>Pliki nagłówkowe\Mechaniki</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveGame.h">
+      <Filter>Pliki nagłówkowe\Mechaniki</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Pliki nagłówkowe\Klasy potworów</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
