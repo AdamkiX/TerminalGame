@@ -2,7 +2,7 @@
 
 Shop::Shop()
 {
-
+	ammOfGen = 0;
 }
 
 Shop::Shop(int z)

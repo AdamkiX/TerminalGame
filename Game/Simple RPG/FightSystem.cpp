@@ -8,6 +8,7 @@ FightSystem::FightSystem()
 	turn = 1;
 	zone = 0;
 	fighting = false;
+	actions = 0;
 }
 
 bool FightSystem::FightCheck(Player *p, Inventory& inv, int i)
@@ -161,6 +162,7 @@ bool FightSystem::Fight(Player* p, Inventory& inv)
 	do
 	{
 		p->Ability(turn);
+		actions = p->actions;
 		for (int i = 0; i < p->actions; i++)
 		{
 			PlayerTurn(p,inv);
@@ -199,7 +201,6 @@ bool FightSystem::Fight(Player* p, Inventory& inv)
 void FightSystem::PlayerTurn(Player *p, Inventory &inv)
 {
 	int  option = 0;
-	int actions = p->actions;
 
 	system("cls");
 	cout << endl << "Tura : " << turn << endl << endl;

@@ -25,6 +25,7 @@ int Item::id = 0;
 int Enemy::id = 0;
 bool Commands::devMode = 0;
 int Movement::bossRoom = 0;
+bool Movement::exit = false;
 
 using namespace std;
 
@@ -54,10 +55,10 @@ int main()
 
 
 
-    std::cout << "PROSTA GRA RPG" << endl << endl;
-    std::cout << "1. NOWA GRA" << endl;
-    std::cout << "2. WCZYTAJ GRĘ" << endl;
-    std::cout << "3. WYJŚCIE" << endl;
+    cout << "PROSTA GRA RPG" << endl << endl;
+    cout << "1. NOWA GRA" << endl;
+    cout << "2. WCZYTAJ GRĘ" << endl;
+    cout << "3. WYJŚCIE" << endl;
     do
     {
         menuChoice = _getch();
@@ -162,7 +163,7 @@ int main()
             }
             default:
             {
-                std::cout << "Wybrano nie poprawną klasę. Istnieją 3 klasy do wyboru:" << endl
+                cout << "Wybrano nie poprawną klasę. Istnieją 3 klasy do wyboru:" << endl
                     << "1.    Wojownik" << endl << "2.    Mag" << endl << "3.    Złodziej" << endl;
                 break;
             }
@@ -184,13 +185,13 @@ int main()
     do
     {
         finished = false;
-        Shop shopNew(gen.GetZone());
+        Shop shopNew(zone);
         if (loadingGame == false)
         {
             gen.Generate();
-            zone = gen.GetZone();
             fight.zone = zone;
             system("cls");
+            shop.~Shop();
         }
         else
         {
@@ -214,19 +215,24 @@ int main()
             }
             if(gameover == 0)
             system("cls");
-        } while (finished == false);
+        } while (finished == false && Movement::exit == false);
 
+        zone++;
         gen.Destroy();
         shop.~Shop();
-        if (gen.GetZone() == 6)
+        shopNew.~Shop();
+        if (gen.GetZone() == 6 && Movement::exit == false)
         {
             gameover = true;
-            std::cout << "Gratuluję! Udało Ci się zajść na samo dno lochów oraz pokonałeś"
+            cout << "Gratuluję! Udało Ci się zajść na samo dno lochów oraz pokonałeś"
                 << "Przywódcę potworów" << endl;
         }
-    } while (gameover == false);
+    } while (gameover == false && Movement::exit == false);
     
-    std::cout << "Koniec gry" << endl << endl << endl;
+    if (Movement::exit == false)
+    {
+        std::cout << "Koniec gry" << endl << endl << endl;
+    }
 
     cms.~Commands();
     inv.~Inventory();

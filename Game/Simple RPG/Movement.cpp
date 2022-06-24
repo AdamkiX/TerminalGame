@@ -317,10 +317,11 @@ void Movement::Action(FightSystem& f, LevelGen &l, Player *p, Inventory &inv, Co
 				cin >> yn;
 				if (yn == "Tak" or yn == "tak" or yn == "t")
 				{
-					exit(0);
+					exit = 1;
 				}
 				system("cls");
 				l.DrawMap();
+				sellected = true;
 				break;
 			}
 			default:

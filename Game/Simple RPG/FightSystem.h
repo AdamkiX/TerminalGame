@@ -19,7 +19,7 @@ class FightSystem
 {
 private:
 	bool won = false, end = false;				// Warunki na koniec gry
-	int Pturns;									// Przechowuje wartoœci akcji gracza na turê
+	int Pturns, actions;									// Przechowuje wartoœci akcji gracza na turê
 	int turn;									// Przechowujê wartoœci tur
 	bool fighting;								// Warunek na rozpoczêcie walki
 	vector<Enemy*> enemys;						// Wektor przeciwników
@@ -29,7 +29,7 @@ public:
 	int zone;
 	friend class Movement;
 	FightSystem();													// Konstruktor
-	bool Fight(Player* player, Inventory& inv);						// Odpowiada za walkê
+	bool Fight(Player *player, Inventory& inv);						// Odpowiada za walkê
 	bool FightCheck(Player* player, Inventory& inv, int zone);		// Sprawdza, czy rozpocz¹æ walkê
 	int RandEnemyNum();												// Losowanie przeciwników
 	void GenerateEnemy();											// Generowanie przeciwników

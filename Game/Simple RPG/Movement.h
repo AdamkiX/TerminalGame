@@ -35,6 +35,7 @@ private:
 	bool show_down;				// Warunek na przesuniêcie siê 1 pole w dó³
 
 public:
+	static bool exit;			// Warunek wyjœcia z gry
 	static int bossRoom;		// Dziêki temu aktywowany jest ostatni potwór
 	int room;					// Pokój, do którego wchodzi gracz
 	long int zone;				// Piêtro lochów
